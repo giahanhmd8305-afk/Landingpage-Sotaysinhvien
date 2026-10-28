@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trang giới thiệu ấn phẩm giả định Sổ tay Sinh viên - Cẩm nang đồng hành cùng tân sinh viên và học sinh chuẩn bị bước vào giảng đường đại học.">
+  <title>Sổ Tay Sinh Viên | Cẩm Nang Giảng Đường Dành Cho Tân Sinh Viên</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ================= TOP NAVIGATION ================= -->
+  <header class="site-header" id="topHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Trang chủ Sổ tay Sinh viên">
+        <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        <span>Sổ Tay Sinh Viên</span>
+      </a>
+
+      <button class="mobile-nav-toggle" id="mobileToggle" aria-label="Mở menu điều hướng" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <ul>
+          <li><a href="#hero" class="nav-link active">Giới thiệu</a></li>
+          <li><a href="#benefits" class="nav-link">Lợi ích</a></li>
+          <li><a href="#content" class="nav-link">Nội dung</a></li>
+          <li><a href="#audience" class="nav-link">Đối tượng</a></li>
+          <li><a href="#contact" class="btn-nav">Tìm hiểu thêm</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= 1. HERO SECTION ================= -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            Ấn phẩm cẩm nang học đường
+          </div>
+          <h1 class="hero-title">Sổ Tay Sinh Viên</h1>
+          <p class="hero-subtitle">
+            Hành trang hướng dẫn thực tế, giúp bạn vững vàng thích ứng và tự tin bước vào những năm tháng giảng đường.
+          </p>
+          <p class="hero-desc">
+            Được biên soạn với văn phong gần gũi và góc nhìn thiết thực, cuốn sổ tay tổng hợp những kinh nghiệm chọn lọc về phương pháp tự học đại học, quản lý đời sống tự lập và kỹ năng hòa nhập môi trường mới dành riêng cho tân sinh viên.
+          </p>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <strong>Mục tiêu</strong>
+              <span>Định hướng &amp; Kỹ năng</span>
+            </div>
+            <div class="highlight-divider"></div>
+            <div class="highlight-item">
+              <strong>Hình thức</strong>
+              <span>Sổ tay bỏ túi kèm bảng biểu</span>
+            </div>
+            <div class="highlight-divider"></div>
+            <div class="highlight-item">
+              <strong>Tính chất</strong>
+              <span>Ấn phẩm cẩm nang giả định</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#content" class="btn btn-primary">Khám phá nội dung</a>
+            <button type="button" class="btn btn-secondary" id="openSampleModalBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 6px;">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+              Xem trang mẫu trích đoạn
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- 3D Book Mockup (CSS & SVG) -->
+          <div class="book-scene" aria-label="Hình minh họa bìa Sổ tay Sinh viên">
+            <div class="book-card">
+              <div class="book-spine"></div>
+              <div class="book-cover">
+                <div class="cover-pattern"></div>
+                <div class="cover-header">
+                  <span class="cover-tag">Cẩm nang đồng hành</span>
+                  <div class="cover-ornament"></div>
+                </div>
+                <div class="cover-body">
+                  <div class="cover-icon-wrap">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                  </div>
+                  <h2 class="cover-title">SỔ TAY<br>SINH VIÊN</h2>
+                  <p class="cover-sub">Tự tin bước vào giảng đường</p>
+                </div>
+                <div class="cover-footer">
+                  <span class="cover-note">Tài liệu định hướng &amp; Thích ứng học tập</span>
+                </div>
+              </div>
+              <div class="book-pages"></div>
+            </div>
+            <div class="book-shadow"></div>
+          </div>
+          <span class="book-caption">Mô phỏng minh họa bìa ấn phẩm</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. BENEFITS SECTION ================= -->
+    <section id="benefits" class="section-padding bg-warm">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Lợi ích mang lại</span>
+          <h2 class="section-title">Tại sao cuốn sổ tay này cần thiết cho bạn?</h2>
+          <p class="section-description">
+            Bước chuyển tiếp từ bậc phổ thông lên đại học thường đi kèm nhiều bỡ ngỡ. Cuốn sổ tay đóng vai trò như người bạn đồng hành giải mã từng khó khăn cụ thể.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <!-- Benefit 1 -->
+          <article class="benefit-card">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Định hướng nhanh chóng</h3>
+            <p class="benefit-text">
+              Làm quen ngay với cách tổ chức học chế tín chỉ, cách đăng ký môn học, sử dụng cơ sở vật chất và quy tắc học thuật cần lưu tâm trong những tuần đầu tiên.
+            </p>
+          </article>
+
+          <!-- Benefit 2 -->
+          <article class="benefit-card">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Phương pháp học chủ động</h3>
+            <p class="benefit-text">
+              Chuyển đổi phương thức học tập từ nghe chép thụ động sang chủ động nghiên cứu, đọc giáo trình chuyên ngành, làm việc nhóm và chuẩn bị thi cử khoa học.
+            </p>
+          </article>
+
+          <!-- Benefit 3 -->
+          <article class="benefit-card">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Kỹ năng sống tự lập</h3>
+            <p class="benefit-text">
+              Cung cấp bộ quy tắc thiết thực về quản lý chi tiêu tháng, sắp xếp không gian sống (ở trọ hoặc ký túc xá), duy trì dinh dưỡng và sức khỏe tinh thần.
+            </p>
+          </article>
+
+          <!-- Benefit 4 -->
+          <article class="benefit-card">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Xây dựng mối quan hệ</h3>
+            <p class="benefit-text">
+              Mở rộng cơ hội giao lưu bạn bè mới, ứng xử văn minh với thầy cô, tìm kiếm người dẫn dắt (mentor) và lựa chọn câu lạc bộ phù hợp với thế mạnh cá nhân.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. MAIN CONTENT (CHAPTERS) ================= -->
+    <section id="content" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Cấu trúc ấn phẩm</span>
+          <h2 class="section-title">Nội dung chính trong cuốn sổ tay</h2>
+          <p class="section-description">
+            4 phần nội dung được xây dựng bám sát lộ trình trải nghiệm thực tế của sinh viên trong suốt năm học đầu tiên.
+          </p>
+        </div>
+
+        <div class="content-modules">
+          <!-- Module 1 -->
+          <div class="module-item">
+            <div class="module-number">01</div>
+            <div class="module-body">
+              <div class="module-header-row">
+                <h3 class="module-title">Phần 1: Bước chân đầu tiên vào giảng đường</h3>
+                <span class="module-tag">Tuần lễ đầu &amp; Nhập môn</span>
+              </div>
+              <p class="module-desc">
+                Giải mã hệ thống đào tạo đại học, những khái niệm cốt lõi (tín chỉ, học phần tiên quyết, điểm rèn luyện), thủ tục nhập học và cách định vị bản thân trong không gian mới.
+              </p>
+              <ul class="module-checklist">
+                <li>Hiểu cách tính điểm tích lũy GPA và quy chế thi cử</li>
+                <li>Sơ đồ các phòng ban hỗ trợ sinh viên tại trường</li>
+                <li>Kế hoạch thích nghi tuần tự trong 30 ngày đầu tiên</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Module 2 -->
+          <div class="module-item">
+            <div class="module-number">02</div>
+            <div class="module-body">
+              <div class="module-header-row">
+                <h3 class="module-title">Phần 2: Phương pháp học tập và nghiên cứu</h3>
+                <span class="module-tag">Học thuật chủ động</span>
+              </div>
+              <p class="module-desc">
+                Cung cấp bộ công cụ tư duy và phương pháp học hiện đại ở bậc đại học, nơi việc tự nghiên cứu và phản biện đóng vai trò quyết định kết quả.
+              </p>
+              <ul class="module-checklist">
+                <li>Kỹ năng ghi chép bài giảng hiệu quả và phân loại tài liệu</li>
+                <li>Quy trình làm bài tập lớn và thuyết trình nhóm không xung đột</li>
+                <li>Khai thác cơ sở dữ liệu học thuật và tài nguyên số</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Module 3 -->
+          <div class="module-item">
+            <div class="module-number">03</div>
+            <div class="module-body">
+              <div class="module-header-row">
+                <h3 class="module-title">Phần 3: Đời sống tự lập và quản lý tài chính</h3>
+                <span class="module-tag">Kỹ năng sinh hoạt</span>
+              </div>
+              <p class="module-desc">
+                Những chỉ dẫn thiết thực về đời sống độc lập hàng ngày: từ việc tìm trọ an toàn, nếp sống hòa hợp với bạn cùng phòng đến cách chi tiêu thông minh.
+              </p>
+              <ul class="module-checklist">
+                <li>Công thức phân bổ ngân sách và kiểm soát chi phí sinh hoạt</li>
+                <li>Lưu ý pháp lý hợp đồng thuê trọ và an ninh khu dân cư</li>
+                <li>Bí quyết ăn uống đủ chất, ngủ đủ giấc và giải tỏa áp lực</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Module 4 -->
+          <div class="module-item">
+            <div class="module-number">04</div>
+            <div class="module-body">
+              <div class="module-header-row">
+                <h3 class="module-title">Phần 4: Phát triển bản thân và mở rộng trải nghiệm</h3>
+                <span class="module-tag">Hội nhập &amp; Kỹ năng</span>
+              </div>
+              <p class="module-desc">
+                Không chỉ dừng lại ở giảng đường, cuốn sổ tay gợi mở cách thức để bạn tích lũy trải nghiệm xã hội, rèn luyện kỹ năng và chuẩn bị đường dài.
+              </p>
+              <ul class="module-checklist">
+                <li>Tiêu chí lựa chọn câu lạc bộ và hoạt động tình nguyện ý nghĩa</li>
+                <li>Lộ trình trau dồi ngoại ngữ, tin học và kỹ năng giao tiếp</li>
+                <li>Cách cân bằng giữa việc học, ngoại khóa và việc làm thêm</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Excerpt Preview Box -->
+        <div class="interactive-preview-box">
+          <div class="preview-box-header">
+            <div>
+              <span class="preview-badge">Góc trích đoạn sổ tay</span>
+              <h4 class="preview-title">Xem nhanh một số nguyên tắc hữu ích từ ấn phẩm</h4>
+            </div>
+            <div class="preview-tabs" role="tablist">
+              <button type="button" class="tab-btn active" data-tab="tab1">Mẹo học tín chỉ</button>
+              <button type="button" class="tab-btn" data-tab="tab2">Quản lý chi tiêu</button>
+              <button type="button" class="tab-btn" data-tab="tab3">Làm việc nhóm</button>
+            </div>
+          </div>
+
+          <div class="tab-content active" id="tab1">
+            <div class="quote-card">
+              <p class="quote-text">
+                “Đừng đăng ký quá nhiều tín chỉ trong học kỳ đầu tiên. Môi trường mới đòi hỏi ít nhất 4–6 tuần để bạn thích nghi với tốc độ giảng dạy và lượng tài liệu cần tự đọc. Hãy bắt đầu với số lượng tín chỉ vừa phải để giữ điểm xuất phát vững chắc.”
+              </p>
+              <span class="quote-source">— Trích Phần 1: Bước chân đầu tiên vào giảng đường</span>
+            </div>
+          </div>
+
+          <div class="tab-content" id="tab2">
+            <div class="quote-card">
+              <p class="quote-text">
+                “Quy tắc 50-30-20 cho tân sinh viên: Dành 50% cho nhu cầu thiết yếu (tiền trọ, ăn uống, giáo trình), 30% cho học tập bổ trợ và sinh hoạt bạn bè, 20% dự phòng khẩn cấp. Ghi chép chi tiêu ngay tuần đầu để hiểu rõ dòng tiền cá nhân.”
+              </p>
+              <span class="quote-source">— Trích Phần 3: Đời sống tự lập & Quản lý tài chính</span>
+            </div>
+          </div>
+
+          <div class="tab-content" id="tab3">
+            <div class="quote-card">
+              <p class="quote-text">
+                “Một bài thuyết trình nhóm thành công bắt đầu bằng một bản phân công công việc cụ thể có mốc thời gian (deadline) trước 3 ngày nộp. Phân công rõ trách nhiệm tìm số liệu, soạn thảo slide và thuyết trình chính để không ai bị bỏ lại phía sau.”
+              </p>
+              <span class="quote-source">— Trích Phần 2: Phương pháp học tập và nghiên cứu</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 4. TARGET AUDIENCE SECTION ================= -->
+    <section id="audience" class="section-padding bg-warm">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Dành cho ai?</span>
+          <h2 class="section-title">Ấn phẩm này được thiết kế cho ai?</h2>
+          <p class="section-description">
+            Được tinh chỉnh nội dung nhằm tháo gỡ chính xác những băn khoăn của hai nhóm độc giả chính ở giai đoạn chuyển tiếp.
+          </p>
+        </div>
+
+        <div class="audience-grid">
+          <!-- Card 1 -->
+          <div class="audience-card">
+            <div class="audience-badge">Nhóm 01</div>
+            <div class="audience-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                <line x1="4" y1="22" x2="4" y2="15"></line>
+              </svg>
+            </div>
+            <h3 class="audience-title">Sinh viên vừa thi tốt nghiệp THPT hoặc vừa đậu đại học</h3>
+            <p class="audience-desc">
+              Các bạn trẻ chuẩn bị bước qua cánh cổng đại học, đang đứng trước ngã rẽ lớn và cần một bức tranh tổng thể, trung thực để chuẩn bị tâm lý và đồ dùng trước ngày nhập học.
+            </p>
+            <div class="audience-focus">
+              <strong>Giá trị mang lại riêng cho nhóm:</strong>
+              <span>Giải tỏa cảm giác mơ hồ, nắm trước quy trình học đại học và lên danh sách những điều cần sẵn sàng trước khi rời gia đình.</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="audience-card">
+            <div class="audience-badge">Nhóm 02</div>
+            <div class="audience-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="audience-title">Tân sinh viên năm nhất đang làm quen môi trường mới</h3>
+            <p class="audience-desc">
+              Những bạn đang trực tiếp trải qua những tuần học đầu tiên, có thể đang cảm thấy áp lực vì cách học khác biệt, lịch học dàn trải, bài tập nhóm hoặc việc tự quản lý sinh hoạt.
+            </p>
+            <div class="audience-focus">
+              <strong>Giá trị mang lại riêng cho nhóm:</strong>
+              <span>Công cụ gỡ rối tức thì cho các tình huống thực tế, phương pháp ôn thi học kỳ đầu và mẹo giữ cân bằng sức khỏe tinh thần.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. CALL TO ACTION / LEARN MORE ================= -->
+    <section id="contact" class="section-padding cta-section">
+      <div class="container">
+        <div class="cta-card">
+          <div class="cta-header">
+            <span class="cta-tag">Kết nối &amp; Trao đổi</span>
+            <h2 class="cta-title">Bạn muốn tìm hiểu thêm về cuốn sổ tay?</h2>
+            <p class="cta-subtitle">
+              Hãy để lại lời nhắn hoặc thông tin để nhận thêm bản giới thiệu chi tiết và các chia sẻ kinh nghiệm học đường tiếp theo.
+            </p>
+          </div>
+
+          <!-- Inquiry Form with Target Hidden Iframe (Hỗ trợ 100% khi chạy từ file:///) -->
+          <form class="cta-form" id="inquiryForm" action="https://script.google.com/macros/s/AKfycbwWBPf5yA8aTFQdGjRqKmzDZl7FU--8rfyVqn810b6Ck2xmPZvLt5Zkqj0xkmHOPAO-/exec" method="POST" target="hidden_iframe">
+            <input type="hidden" name="role_label" id="roleLabelInput" value="">
+            
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="name">Họ và tên của bạn</label>
+                <input type="text" id="name" name="name" placeholder="Ví dụ: Minh Anh" required>
+              </div>
+              <div class="form-group">
+                <label for="role">Bạn hiện là</label>
+                <select id="role" name="role" required>
+                  <option value="" disabled selected>Chọn nhóm độc giả</option>
+                  <option value="highschool">Học sinh tốt nghiệp THPT / Chuẩn bị vào ĐH</option>
+                  <option value="freshman">Tân sinh viên năm nhất</option>
+                  <option value="parent">Phụ huynh sinh viên</option>
+                  <option value="other">Bạn đọc quan tâm khác</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Địa chỉ Email</label>
+              <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Nội dung bạn mong muốn tìm hiểu thêm hoặc chủ đề cần giải đáp</label>
+              <textarea id="message" name="message" rows="3" placeholder="Chia sẻ những băn khoăn của bạn khi bước vào môi trường đại học..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+              Gửi thông tin tìm hiểu thêm
+            </button>
+            
+            <p class="form-disclaimer">
+              * Ghi chú quan trọng: Trang web và ấn phẩm “Sổ tay Sinh viên” là dự án giới thiệu sản phẩm giả định nhằm mục đích thiết kế giao diện và học tập. Mọi thông tin gửi đi không ràng buộc bất kỳ giao dịch thương mại nào.
+            </p>
+          </form>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" title="hidden_iframe"></iframe>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+          <strong>Sổ Tay Sinh Viên</strong>
+        </div>
+        <p class="footer-note">
+          Dự án landing page giới thiệu ấn phẩm giả định dành cho tân sinh viên và học sinh chuẩn bị bước vào giảng đường đại học. Thiết kế theo phong cách xuất bản tối giản, tập trung vào trải nghiệm đọc tiếng Việt thân thiện.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Điều hướng trang</h4>
+        <ul>
+          <li><a href="#hero">Giới thiệu tổng quan</a></li>
+          <li><a href="#benefits">Lợi ích cốt lõi</a></li>
+          <li><a href="#content">Nội dung 4 phần</a></li>
+          <li><a href="#audience">Đối tượng sử dụng</a></li>
+          <li><a href="#contact">Liên hệ tìm hiểu</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© Dự án thiết kế giới thiệu ấn phẩm giả định. Không thương mại hóa.</p>
+        <p class="footer-sub-note">Phục vụ mục đích học tập &amp; tham khảo trải nghiệm người dùng.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= SAMPLE EXCERPT MODAL ================= -->
+  <div class="modal-overlay" id="sampleModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" id="closeSampleModalBtn" aria-label="Đóng cửa sổ">×</button>
+      <div class="modal-header">
+        <span class="modal-tag">Trích đoạn xem thử</span>
+        <h3 id="modalTitle" class="modal-title">Trang mẫu: Bảng kiểm tuần đầu tại trường</h3>
+      </div>
+      <div class="modal-body">
+        <div class="sample-page">
+          <p class="sample-lead">
+            Dưới đây là một trang trích đoạn mẫu minh họa cách sổ tay thiết kế các danh mục kiểm tra (checklist) trực quan, giúp tân sinh viên không bỏ sót việc quan trọng:
+          </p>
+          <div class="sample-checklist-box">
+            <h4>✓ Danh mục 5 việc cần làm ngay trong tuần đầu tiên:</h4>
+            <ul>
+              <li><strong>1. Xác nhận lịch học & địa điểm phòng:</strong> Kiểm tra mã phòng học (tòa nhà, số tầng) trước buổi học đầu tiên để tránh bị lạc trường.</li>
+              <li><strong>2. Làm quen với hệ thống cổng thông tin đào tạo (Portal):</strong> Kiểm tra tài khoản sinh viên, email trường cấp và lịch thi dự kiến.</li>
+              <li><strong>3. Mượn thẻ thư viện và khảo sát không gian tự học:</strong> Khám phá khu vực đọc yên tĩnh, phòng tự học nhóm và nguồn sách giáo trình sẵn có.</li>
+              <li><strong>4. Lưu số điện thoại hỗ trợ khẩn cấp:</strong> Bao gồm văn phòng khoa, trạm y tế trường, ban quản lý ký túc xá và công an khu vực trọ.</li>
+              <li><strong>5. Kết nối ban cán sự lớp và nhóm học tập:</strong> Lưu lại danh sách liên lạc lớp trưởng và thầy cô cố vấn học tập.</li>
+            </ul>
+          </div>
+          <p class="sample-foot">
+            * Minh họa trích đoạn giả định từ nội dung Phần 1 của ấn phẩm Sổ tay Sinh viên.
+          </p>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-secondary" id="closeSampleModalBottomBtn">Đóng cửa sổ xem thử</button>
+        <a href="#contact" class="btn btn-primary" id="modalToContactBtn">Tìm hiểu thêm về sổ tay</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= TOAST NOTIFICATION MODAL ================= -->
+  <div class="modal-overlay" id="feedbackModal" role="dialog" aria-modal="true">
+    <div class="modal-dialog modal-dialog-sm text-center">
+      <div class="feedback-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M20 6L9 17l-5-5"></path>
+        </svg>
+      </div>
+      <h3 class="feedback-title">Cảm ơn bạn đã quan tâm!</h3>
+      <p class="feedback-desc">
+        Thông tin tìm hiểu thêm của bạn đã được ghi nhận vào bản demo giới thiệu.<br>
+        <em>(Lưu ý: Đây là trang giới thiệu ấn phẩm giả định phục vụ mục đích thiết kế và học tập.)</em>
+      </p>
+      <button type="button" class="btn btn-primary" id="closeFeedbackModalBtn">Đồng ý</button>
+    </div>
+  </div>
+
+  <!-- ================= BACK TO TOP BUTTON ================= -->
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Cuộn lên đầu trang">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    // 1. Mobile Navigation Toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const siteNav = document.getElementById('siteNav');
+
+    if (mobileToggle && siteNav) {
+      mobileToggle.addEventListener('click', () => {
+        const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
+        mobileToggle.setAttribute('aria-expanded', !isExpanded);
+        siteNav.classList.toggle('nav-open');
+      });
+
+      siteNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          siteNav.classList.remove('nav-open');
+          mobileToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // 2. Active Scrollspy for Navigation
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('section[id]');
+
+    function handleScrollSpy() {
+      const scrollY = window.pageYOffset;
+      sections.forEach(section => {
+        const sectionHeight = section.offsetHeight;
+        const sectionTop = section.offsetTop - 120;
+        const sectionId = section.getAttribute('id');
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${sectionId}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+
+      // Back to top button visibility
+      const backToTopBtn = document.getElementById('backToTopBtn');
+      if (backToTopBtn) {
+        if (scrollY > 400) {
+          backToTopBtn.classList.add('visible');
+        } else {
+          backToTopBtn.classList.remove('visible');
+        }
+      }
+    }
+
+    window.addEventListener('scroll', handleScrollSpy);
+
+    // 3. Back to Top Action
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    if (backToTopBtn) {
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    // 4. Interactive Excerpt Tabs
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetTab = btn.getAttribute('data-tab');
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabContents.forEach(c => c.classList.remove('active'));
+        btn.classList.add('active');
+        const contentEl = document.getElementById(targetTab);
+        if (contentEl) {
+          contentEl.classList.add('active');
+        }
+      });
+    });
+
+    // 5. Sample Excerpt Modal
+    const sampleModal = document.getElementById('sampleModal');
+    const openSampleModalBtn = document.getElementById('openSampleModalBtn');
+    const closeSampleModalBtn = document.getElementById('closeSampleModalBtn');
+    const closeSampleModalBottomBtn = document.getElementById('closeSampleModalBottomBtn');
+    const modalToContactBtn = document.getElementById('modalToContactBtn');
+
+    function openModal() {
+      if (sampleModal) {
+        sampleModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal() {
+      if (sampleModal) {
+        sampleModal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    if (openSampleModalBtn) openSampleModalBtn.addEventListener('click', openModal);
+    if (closeSampleModalBtn) closeSampleModalBtn.addEventListener('click', closeModal);
+    if (closeSampleModalBottomBtn) closeSampleModalBottomBtn.addEventListener('click', closeModal);
+    if (modalToContactBtn) modalToContactBtn.addEventListener('click', closeModal);
+
+    // 6. CẤU HÌNH & GỬI DỮ LIỆU TỚI GOOGLE SHEET
+    // =========================================================================
+    const GOOGLE_SHEET_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwWBPf5yA8aTFQdGjRqKmzDZl7FU--8rfyVqn810b6Ck2xmPZvLt5Zkqj0xkmHOPAO-/exec"; 
+    // =========================================================================
+
+    const inquiryForm = document.getElementById('inquiryForm');
+    const feedbackModal = document.getElementById('feedbackModal');
+    const closeFeedbackModalBtn = document.getElementById('closeFeedbackModalBtn');
+    const submitBtn = document.getElementById('submitBtn');
+    const roleLabelInput = document.getElementById('roleLabelInput');
+
+    const roleMap = {
+      'highschool': 'Học sinh tốt nghiệp THPT / Chuẩn bị vào ĐH',
+      'freshman': 'Tân sinh viên năm nhất',
+      'parent': 'Phụ huynh sinh viên',
+      'other': 'Bạn đọc quan tâm khác'
+    };
+
+    if (inquiryForm && feedbackModal) {
+      inquiryForm.addEventListener('submit', async function(e) {
+        // Ngăn reload trang
+        e.preventDefault();
+
+        const roleSelect = document.getElementById('role');
+        const roleText = roleMap[roleSelect.value] || roleSelect.value;
+        if (roleLabelInput) {
+          roleLabelInput.value = roleText;
+        }
+
+        const originalBtnText = submitBtn ? submitBtn.innerText : '';
+        if (submitBtn) {
+          submitBtn.style.pointerEvents = 'none';
+          submitBtn.innerText = 'Đang gửi dữ liệu vào Google Sheet...';
+        }
+
+        // Tạo dữ liệu dạng URL-Encoded tương thích 100% với Google Apps Script
+        const formData = new FormData(inquiryForm);
+        formData.set('role_label', roleText);
+
+        const urlParams = new URLSearchParams();
+        for (const [key, value] of formData.entries()) {
+          urlParams.append(key, value);
+        }
+
+        try {
+          // Kênh 1: Gửi qua Fetch URL-encoded
+          await fetch(GOOGLE_SHEET_WEBAPP_URL, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: urlParams.toString()
+          });
+        } catch (fetchErr) {
+          console.warn('Fetch fallback:', fetchErr);
+        }
+
+        // Kênh 2: Gửi song song qua native iframe để đảm bảo 100% thành công trên mọi môi trường
+        try {
+          inquiryForm.submit();
+        } catch (formErr) {
+          console.warn('Iframe submit:', formErr);
+        }
+
+        // Hiển thị modal thông báo thành công cho người dùng
+        setTimeout(function() {
+          feedbackModal.classList.add('active');
+          document.body.style.overflow = 'hidden';
+          inquiryForm.reset();
+          if (submitBtn) {
+            submitBtn.style.pointerEvents = 'auto';
+            submitBtn.innerText = originalBtnText;
+          }
+        }, 800);
+      });
+
+      if (closeFeedbackModalBtn) {
+        closeFeedbackModalBtn.addEventListener('click', () => {
+          feedbackModal.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      }
+    }
+
+    // Close modals on clicking backdrop
+    [sampleModal, feedbackModal].forEach(modal => {
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
